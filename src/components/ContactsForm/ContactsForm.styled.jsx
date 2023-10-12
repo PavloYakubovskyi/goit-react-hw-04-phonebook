@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Field } from "formik";
+import styled from 'styled-components';
+// import { Field } from "formik";
 
 export const FormLabel = styled.label`
   display: flex;
@@ -37,7 +37,7 @@ export const BtnSubmit = styled.button`
   }
 `;
 
-export const Input = styled(Field)`
+export const Input = styled.input`
   width: 180px;
   font-size: 16px;
   padding: 5px 20px;
